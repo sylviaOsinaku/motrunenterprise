@@ -8,7 +8,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'MotrunFrozenFoods & Co | Frozen Seafood Supply Lagos',
+  title: 'MotrunEnterprise & Co | Frozen Seafood Supply Lagos',
   description: 'Reliable bulk frozen fish and seafood supply in Lagos. Premium quality, fast delivery. Trusted by 50+ restaurants and food businesses.',
   generator: 'Osinaku Ugonna Sylvia',
   icons: {

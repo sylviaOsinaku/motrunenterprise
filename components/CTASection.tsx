@@ -9,8 +9,8 @@ export function CTASection() {
           Ready to Stock Up Your Business?
         </h2>
 
-        <p className="text-lg sm:text-xl text-gray-300 mb-8 max-w-2xl mx-auto text-balance">
-          Join 50+ businesses that trust MoturanroFish for reliable, quality frozen food supply.
+        <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-2xl mx-auto text-balance">
+          Join 50+ businesses that trust Motrun for reliable, quality frozen food supply.
           Order today and experience the difference.
         </p>
 
@@ -27,12 +27,13 @@ export function CTASection() {
             asChild
             variant="outline"
             size="lg"
-            className="border-white text-white hover:bg-white hover:text-dark-bg text-base sm:text-lg h-12 bg-green"
+             className="bg-primary hover:bg-primary-dark text-white text-base sm:text-lg h-12"
           >
             <a
               href="https://wa.me/2347000000000"
               target="_blank"
               rel="noopener noreferrer"
+               className="bg-primary hover:bg-primary-dark text-white text-base sm:text-lg h-12"
             >
               Chat on WhatsApp
             </a>

@@ -73,7 +73,7 @@ export function ProductsPreviewSection() {
                     className="flex-1 bg-primary hover:bg-primary-dark text-white"
                   >
                     <a
-                      href={`https://wa.me/2347000000000?text=I'm interested in ${product.name}`}
+                      href={`https://wa.me/2347057589549?text=I'm interested in ${product.name}`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >

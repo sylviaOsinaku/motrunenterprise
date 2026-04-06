@@ -11,9 +11,9 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">MF</span>
+                <span className="text-white font-bold">M</span>
               </div>
-              <span className="font-bold text-lg text-primary"> MotrunfrozenFoods</span>
+              <span className="font-bold text-lg text-primary"> Motrun</span>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
               Your trusted partner for premium bulk frozen seafood and fish supply in Lagos.
@@ -64,7 +64,7 @@ export function Footer() {
                 className="flex items-center gap-2 text-gray-700 hover:text-primary transition-colors text-sm"
               >
                 <Mail className="w-4 h-4" />
-                info@moturanrofish.com
+                info@motrun.com
               </a>
               <div className="flex items-start gap-2 text-gray-700 text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
@@ -108,7 +108,7 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="border-t border-primary/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
-            <p>&copy; 2026 MotrunfrozenFoods & Co. All rights reserved.</p>
+            <p>&copy; 2026 MotrunEnterprise & Co. All rights reserved.</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-primary transition-colors">
                 Privacy Policy

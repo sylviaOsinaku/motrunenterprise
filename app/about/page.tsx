@@ -7,8 +7,8 @@ import { Card } from '@/components/ui/card'
 import { Heart, Target, Eye, Users } from 'lucide-react'
 
 export const metadata = {
-  title: 'About Us - MoturanroFish & Co',
-  description: 'Learn about MoturanroFish & Co, your trusted frozen seafood supply partner in Lagos.',
+  title: 'About Us - MotrunEnterprise',
+  description: 'Learn about MotrunEnterprise, your trusted frozen seafood supply partner in Lagos.',
 }
 
 const values = [
@@ -59,7 +59,7 @@ export default function AboutPage() {
               Our Story
             </h2>
             <p className="text-lg leading-relaxed text-dark-bg/80 mb-4">
-             MotrunfrozenFoods & Co was founded with a simple mission: To continuously work on bettering the quality of our products while maintaining cost-effective prices and providing irresistible customer experience for repetitive business relationships
+            MotrunEnterprise was founded with a simple mission: To continuously work on bettering the quality of our products while maintaining cost-effective prices and providing irresistible customer experience for repetitive business relationships
             </p>
             <p className="text-lg leading-relaxed text-dark-bg/80 mb-4">
               We understand the challenges of unreliable suppliers, inconsistent quality, and 
@@ -141,7 +141,7 @@ export default function AboutPage() {
       <section className="py-16 sm:py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-dark-bg mb-8 text-balance">
-            Why Businesses Trust MoturanroFish
+            Why Businesses Trust Motrun
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">

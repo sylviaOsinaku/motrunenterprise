@@ -10,7 +10,7 @@ interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    text: 'MotrunfrozenFoods has completely changed how we stock our kitchen. Always fresh, always on time. Their reliability is unmatched.',
+    text: 'Motrun has completely changed how we stock our kitchen. Always fresh, always on time. Their reliability is unmatched.',
     author: 'Chioma Okafor',
     business: 'Restaurant Owner',
     location: 'Lekki',

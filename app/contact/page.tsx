@@ -7,7 +7,7 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 
 export const metadata = {
   title: 'Contact Us - MoturanroFish & Co',
-  description: 'Get in touch with MoturanroFish & Co for bulk frozen seafood orders and inquiries.',
+  description: 'Get in touch with Motrun for bulk frozen seafood orders and inquiries.',
 }
 
 export default function ContactPage() {
@@ -18,10 +18,10 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="bg-dark-bg text-white py-16 sm:py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance leading-tight text-primary">
             Get in Touch
           </h1>
-          <p className="text-lg sm:text-xl text-gray-300 text-balance">
+          <p className="text-lg sm:text-xl text-gray-500 text-balance">
             Have questions or ready to place an order? We&apos;re here to help. Reach out to us and we&apos;ll respond within minutes.
           </p>
         </div>
@@ -47,7 +47,7 @@ export default function ContactPage() {
                       href="tel:+2347000000000"
                       className="text-primary hover:underline text-sm"
                     >
-                      +234 700 000 0000
+                     +234 705 758 9549
                     </a>
                   </div>
                 </div>
@@ -62,7 +62,7 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold text-dark-bg mb-1">WhatsApp</h3>
                     <a
-                      href="https://wa.me/2347000000000"
+                      href="https://wa.me/2347057589549"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-green-600 hover:underline text-sm"
@@ -85,7 +85,7 @@ export default function ContactPage() {
                       href="mailto:info@moturanrofish.com"
                       className="text-primary hover:underline text-sm"
                     >
-                      info@moturanrofish.com
+                      info@motrun.com
                     </a>
                   </div>
                 </div>

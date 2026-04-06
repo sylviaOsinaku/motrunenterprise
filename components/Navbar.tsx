@@ -33,7 +33,7 @@ export function Navbar() {
              <Image src={logo} alt='Moturnayo Logo Enterprise'/>
             </div>
             <span className="hidden sm:inline font-bold text-lg text-dark-bg cursor-pointer">
-              MotrunfrozenFoods
+              Motrun
             </span>
           </button>
 
