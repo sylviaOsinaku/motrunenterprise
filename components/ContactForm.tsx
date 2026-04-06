@@ -106,7 +106,7 @@ export function ContactForm() {
           type="text"
           value={formData.name}
           onChange={handleChange}
-          placeholder="John Doe"
+          placeholder="Adebayo Darasimi"
           required
           className="w-full px-4 py-3 rounded-lg border border-secondary-light focus:border-primary focus:outline-none bg-white text-dark-bg"
         />

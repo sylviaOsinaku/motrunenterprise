@@ -30,8 +30,8 @@ export async function POST(request: NextRequest) {
       timestamp: new Date().toISOString(),
     })
 
-    // For now, we'll just simulate a successful submission
-    // In production, you would integrate with your backend services
+    
+    // In production, I would integrate with your backend services
 
     return NextResponse.json(
       { 
