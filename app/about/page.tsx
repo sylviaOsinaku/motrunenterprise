@@ -59,12 +59,11 @@ export default function AboutPage() {
               Our Story
             </h2>
             <p className="text-lg leading-relaxed text-dark-bg/80 mb-4">
-              MoturanroFish & Co was founded with a simple mission: to provide consistent, 
-              high-quality frozen fish and seafood to businesses in Lagos.
+             MotrunfrozenFoods & Co was founded with a simple mission: To continuously work on bettering the quality of our products while maintaining cost-effective prices and providing irresistible customer experience for repetitive business relationships
             </p>
             <p className="text-lg leading-relaxed text-dark-bg/80 mb-4">
               We understand the challenges of unreliable suppliers, inconsistent quality, and 
-              delayed deliveries — challenges that have plagued countless food businesses in our city. 
+              delayed deliveries ,challenges that have plagued countless food businesses in our city. 
               We built our company to solve these problems.
             </p>
             <p className="text-lg leading-relaxed text-dark-bg/80">
