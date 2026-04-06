@@ -45,7 +45,7 @@ export function Footer() {
             <div className="space-y-3">
               <a
                 href="+2347057589549"
-                className="flex items-center gap-2 text-gray-300 hover:text-primary transition-colors text-sm"
+                className="flex items-center gap-2 text-gray-700 hover:text-primary transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" />
                +234 705 758 9549
@@ -54,19 +54,19 @@ export function Footer() {
                 href="https://wa.me/2347057589549"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-300 hover:text-primary transition-colors text-sm"
+                className="flex items-center gap-2 text-gray-700 hover:text-primary transition-colors text-sm"
               >
                 <MessageCircle className="w-4 h-4" />
                 WhatsApp
               </a>
               <a
                 href="mailto:info@moturanrofish.com"
-                className="flex items-center gap-2 text-gray-300 hover:text-primary transition-colors text-sm"
+                className="flex items-center gap-2 text-gray-700 hover:text-primary transition-colors text-sm"
               >
                 <Mail className="w-4 h-4" />
                 info@moturanrofish.com
               </a>
-              <div className="flex items-start gap-2 text-gray-300 text-sm">
+              <div className="flex items-start gap-2 text-gray-700 text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <span>Lagos, Nigeria</span>
               </div>
