@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import logo from '../public/images/motunlogo.jpg'
+import logo from "../public/motrun-main-logo.png"
 import Image from 'next/image'
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
