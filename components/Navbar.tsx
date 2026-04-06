@@ -95,7 +95,7 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <div className="px-4 py-3 flex gap-2">
+            <div className="px-4 py-3 flex gap-2 flex-col">
               <Button
                 asChild
                 variant="outline"
