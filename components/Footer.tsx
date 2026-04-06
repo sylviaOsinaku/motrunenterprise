@@ -13,7 +13,7 @@ export function Footer() {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold">MF</span>
               </div>
-              <span className="font-bold text-lg">MoturanroFish</span>
+              <span className="font-bold text-lg"> MotrunfrozenFoods</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Your trusted partner for premium bulk frozen seafood and fish supply in Lagos.
