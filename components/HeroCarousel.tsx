@@ -17,15 +17,16 @@ const slides: CarouselSlide[] = [
     title: 'Premium Frozen Seafood, Delivered Fresh',
     description: 'Carefully sourced and expertly preserved to bring you the finest quality seafood—perfect for homes, restaurants, and businesses that value excellence.',
   },
-  {
-    image: '/images/motun-2.jpg',
-    title: 'Trusted Cold Storage You Can Rely On',
-    description: 'State-of-the-art storage solutions that maintain freshness, safety, and quality—so every product reaches you just as it should.',
-  },
+ 
   {
     image: '/images/motun-3.jpg',
     title: 'Fast, Reliable Delivery Across Lagos',
     description: 'From our facility to your doorstep, we ensure prompt, consistent delivery—making your experience smooth, dependable, and stress-free.',
+  },
+   {
+    image: '/images/motun-2.jpg',
+    title: 'Trusted Cold Storage You Can Rely On',
+    description: 'State-of-the-art storage solutions that maintain freshness, safety, and quality—so every product reaches you just as it should.',
   },
 ]
 
