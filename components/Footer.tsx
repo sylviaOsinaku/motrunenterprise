@@ -13,9 +13,9 @@ export function Footer() {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold">MF</span>
               </div>
-              <span className="font-bold text-lg"> MotrunfrozenFoods</span>
+              <span className="font-bold text-lg text-priimary"> MotrunfrozenFoods</span>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-500 text-sm leading-relaxed">
               Your trusted partner for premium bulk frozen seafood and fish supply in Lagos.
             </p>
           </div>
@@ -24,16 +24,16 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-primary">Quick Links</h4>
             <nav className="space-y-2">
-              <Link href="/" className="text-gray-700 hover:text-primary transition-colors space-x-2">
+              <Link href="/" className="text-gray-700 hover:text-primary transition-colors px-2">
                 Home
               </Link>
-              <Link href="/products" className="text-gray-700 hover:text-primary transition-colors space-x-2">
+              <Link href="/products" className="text-gray-700 hover:text-primary transition-colors space-x-2  px-2">
                 Products
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-primary transition-colors space-x-2">
+              <Link href="/about" className="text-gray-700 hover:text-primary transition-colors space-x-2  px-2">
                 About Us
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-primary transition-colors space-x-2">
+              <Link href="/contact" className="text-gray-700 hover:text-primary transition-colors  px-2">
                 Contact
               </Link>
             </nav>
@@ -108,7 +108,7 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="border-t border-primary/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
-            <p>&copy; 2024 MoturanroFish & Co. All rights reserved.</p>
+            <p>&copy; 2026 MotrunfrozenFoods & Co. All rights reserved.</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-primary transition-colors">
                 Privacy Policy

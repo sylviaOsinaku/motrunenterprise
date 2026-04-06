@@ -10,23 +10,23 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'MoturanroFish & Co | Premium Bulk Frozen Seafood Supply Lagos',
   description: 'Reliable bulk frozen fish and seafood supply in Lagos. Premium quality, fast delivery. Trusted by 50+ restaurants and food businesses.',
-  generator: 'v0.app',
+  generator: 'Osinaku Ugonna Sylvia',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon-dark-32x32.jpg',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon-dark-32x32.jpg',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/icon-dark-32x32.jpg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/icon-dark-32x32.jpg',
   },
 }
 

@@ -202,12 +202,12 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 sm:py-20 bg-dark-bg text-white">
+      <section className="py-16 sm:py-20 bg-dark-bg ">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-balance">
             Partner with Us Today
           </h2>
-          <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto text-balance">
+          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto text-balance">
             Never worry about supply again. Let MoturanroFish handle your frozen food needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -216,18 +216,19 @@ export default function AboutPage() {
               size="lg"
               className="bg-primary hover:bg-primary-dark text-white"
             >
-              <Link href="/products">View Products</Link>
+              <Link href="/products" >View Products</Link>
             </Button>
             <Button
               asChild
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-dark-bg"
+              className="bg-primary hover:bg-primary-dark text-white"
             >
               <a
-                href="https://wa.me/2347000000000"
+                href="https://wa.me/2347057589549"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="bg-primary hover:bg-primary-dark text-white"
               >
                 Contact Us
               </a>
