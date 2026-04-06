@@ -29,10 +29,10 @@ export function Navbar() {
             onClick={handleLogoClick}
             className="flex items-center gap-2 group focus:outline-none"
           >
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center group-hover:bg-primary-dark transition-colors">
+            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center group-hover:bg-primary-dark transition-colors cursor-pointer">
              <Image src={logo} alt='Moturnayo Logo Enterprise'/>
             </div>
-            <span className="hidden sm:inline font-bold text-lg text-dark-bg">
+            <span className="hidden sm:inline font-bold text-lg text-dark-bg cursor-pointer">
               MotrunfrozenFoods
             </span>
           </button>

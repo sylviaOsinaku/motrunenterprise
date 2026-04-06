@@ -14,18 +14,18 @@ interface CarouselSlide {
 const slides: CarouselSlide[] = [
   {
     image: '/images/motun-1.jpg',
-    title: 'Premium Bulk Frozen Seafood',
-    description: 'Reliable supply for your business needs',
+    title: 'Premium Frozen Seafood, Delivered Fresh',
+    description: 'Carefully sourced and expertly preserved to bring you the finest quality seafood—perfect for homes, restaurants, and businesses that value excellence.',
   },
   {
     image: '/images/motun-2.jpg',
-    title: 'Professional Cold Storage',
-    description: 'Quality guaranteed with proper handling',
+    title: 'Trusted Cold Storage You Can Rely On',
+    description: 'State-of-the-art storage solutions that maintain freshness, safety, and quality—so every product reaches you just as it should.',
   },
   {
     image: '/images/motun-3.jpg',
-    title: 'Fast Lagos Delivery',
-    description: 'Quick processing and consistent service',
+    title: 'Fast, Reliable Delivery Across Lagos',
+    description: 'From our facility to your doorstep, we ensure prompt, consistent delivery—making your experience smooth, dependable, and stress-free.',
   },
 ]
 
@@ -82,7 +82,7 @@ export function HeroCarousel() {
             priority={index === 0}
           />
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/40" />
+          <div className="absolute inset-0 bg-black/60" />
           
           {/* Content */}
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
