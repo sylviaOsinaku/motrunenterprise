@@ -24,16 +24,16 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-primary">Quick Links</h4>
             <nav className="space-y-2">
-              <Link href="/" className="text-gray-300 hover:text-primary transition-colors">
+              <Link href="/" className="text-gray-700 hover:text-primary transition-colors space-y-2">
                 Home
               </Link>
-              <Link href="/products" className="text-gray-300 hover:text-primary transition-colors">
+              <Link href="/products" className="text-gray-700 hover:text-primary transition-colors space-y-2">
                 Products
               </Link>
-              <Link href="/about" className="text-gray-300 hover:text-primary transition-colors">
+              <Link href="/about" className="text-gray-700 hover:text-primary transition-colors ">
                 About Us
               </Link>
-              <Link href="/contact" className="text-gray-300 hover:text-primary transition-colors">
+              <Link href="/contact" className="text-gray-700 hover:text-primary transition-colors">
                 Contact
               </Link>
             </nav>
@@ -44,14 +44,14 @@ export function Footer() {
             <h4 className="font-bold mb-4 text-primary">Contact Us</h4>
             <div className="space-y-3">
               <a
-                href="tel:+2347000000000"
+                href="+2347057589549"
                 className="flex items-center gap-2 text-gray-300 hover:text-primary transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" />
-                +234 700 000 0000
+               +234 705 758 9549
               </a>
               <a
-                href="https://wa.me/2347000000000"
+                href="https://wa.me/2347057589549"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-300 hover:text-primary transition-colors text-sm"

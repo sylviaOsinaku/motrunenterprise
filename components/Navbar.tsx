@@ -33,7 +33,7 @@ export function Navbar() {
              <Image src={logo} alt='Moturnayo Logo Enterprise'/>
             </div>
             <span className="hidden sm:inline font-bold text-lg text-dark-bg">
-              MoturnEnterprise
+              MotrunfrozenFoods
             </span>
           </button>
 
@@ -57,7 +57,7 @@ export function Navbar() {
               variant="outline"
               className="border-primary text-primary hover:bg-primary hover:text-white"
             >
-              <a href="https://wa.me/2347000000000" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/2347057589549" target="_blank" rel="noopener noreferrer">
                 WhatsApp
               </a>
             </Button>
@@ -102,7 +102,7 @@ export function Navbar() {
                 size="sm"
                 className="border-primary text-primary hover:bg-primary hover:text-white w-full"
               >
-                <a href="https://wa.me/2347000000000" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/2347057589549" target="_blank" rel="noopener noreferrer">
                   WhatsApp
                 </a>
               </Button>
