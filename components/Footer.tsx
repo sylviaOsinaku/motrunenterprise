@@ -108,7 +108,7 @@ export function Footer() {
         {/* Bottom Footer */}
         <div className="border-t border-primary/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-gray-400 text-sm">
-            <p>&copy; 2026 Motrun. All rights reserved.</p>
+            <p>&copy; 2026 Motrun Enterprises Limited. All rights reserved.</p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-primary transition-colors">
                 Privacy Policy
