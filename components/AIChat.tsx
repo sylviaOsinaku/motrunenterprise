@@ -114,7 +114,7 @@ export function AIChat({ isOpen, onClose }: AIChatProps) {
     <div className="fixed bottom-20 right-4 w-full max-w-sm h-96 bg-card rounded-lg shadow-lg border border-border flex flex-col z-50">
       {/* Header */}
       <div className="flex items-center justify-between p-4 border-b border-border">
-        <h3 className="font-semibold text-foreground">MoturanroFish Assistant</h3>
+        <h3 className="font-semibold text-foreground">Motrun Assistant</h3>
         <button
           onClick={onClose}
           className="text-muted-foreground hover:text-foreground transition-colors"
@@ -193,7 +193,7 @@ export function AIChat({ isOpen, onClose }: AIChatProps) {
         <p className="text-xs text-muted-foreground">
           Need immediate help?{' '}
           <a 
-            href="https://wa.me/2347000000000" 
+            href="https://wa.me/2347057589549" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="text-primary hover:underline"
