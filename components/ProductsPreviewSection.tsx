@@ -14,7 +14,7 @@ export function ProductsPreviewSection() {
           <h2 className="text-4xl sm:text-5xl font-bold text-dark-bg mb-4 text-balance">
             Our Product Range
           </h2>
-          <p className="text-lg text-neutral-400 max-w-2xl mx-auto text-balance">
+          <p className="text-lg text-neutral-500 max-w-2xl mx-auto text-balance">
             Premium frozen fish and seafood carefully selected and preserved for your business.
           </p>
         </div>

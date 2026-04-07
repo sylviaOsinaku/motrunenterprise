@@ -230,7 +230,7 @@ export function ContactForm() {
       <p className="text-sm text-center text-neutral-400">
         We typically respond within minutes. Prefer WhatsApp?{' '}
         <a
-          href="https://wa.me/2347000000000"
+          href="https://wa.me/2347057589549"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary hover:underline font-semibold"

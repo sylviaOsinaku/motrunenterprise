@@ -4,28 +4,61 @@ import { WhatsAppButton } from '@/components/WhatsAppButton'
 import { ContactForm } from '@/components/ContactForm'
 import { Card } from '@/components/ui/card'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import Image from 'next/image'
 
 export const metadata = {
-  title: 'Contact Us - MoturanroFish & Co',
+  title: 'Contact Us - Motrun & Co',
   description: 'Get in touch with Motrun for bulk frozen seafood orders and inquiries.',
 }
 
 export default function ContactPage() {
   return (
-    <main>
+    <main className='min-h-screen bg-background'>
       <Navbar />
 
       {/* Hero Section */}
-      <section className="bg-dark-bg text-white py-16 sm:py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance leading-tight text-primary">
+
+      <section className="relative h-120 md:h-96 overflow-hidden">
+  {/* Background */}
+  <div className="absolute inset-0">
+    <div className="w-full h-full relative">
+      {/* Image */}
+      <Image
+        src="images/hero-3.jpg"
+        alt="about us background pg"
+        fill
+        className="object-cover"
+        style={{
+          clipPath: "polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%)",
+        }}
+      />
+      {/* Gradient Overlay (clipped too) */}
+      <div
+        className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/80 to-black/100"
+        style={{
+          clipPath: "polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%)",
+        }}
+      />
+    </div>
+  </div>
+
+  {/* Content */}
+  <div className="relative z-10 container mx-auto px-4 h-full flex items-center justify-center">
+    <div className="text-center text-white">
+      
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance leading-tight text-orange-300">
             Get in Touch
           </h1>
-          <p className="text-lg sm:text-xl text-gray-500 text-balance">
+     <p className="text-lg sm:text-xl text-gray-100 text-balance">
             Have questions or ready to place an order? We&apos;re here to help. Reach out to us and we&apos;ll respond within minutes.
           </p>
-        </div>
-      </section>
+      
+      
+    </div>
+  </div>
+</section>
+
+    
 
       {/* Contact Information & Form */}
       <section className="py-16 sm:py-20 bg-background">

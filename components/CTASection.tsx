@@ -30,7 +30,7 @@ export function CTASection() {
              className="bg-primary hover:bg-primary-dark text-white text-base sm:text-lg h-12"
           >
             <a
-              href="https://wa.me/2347000000000"
+              href="https://wa.me/2347057589549"
               target="_blank"
               rel="noopener noreferrer"
                className="bg-primary hover:bg-primary-dark text-white text-base sm:text-lg h-12"

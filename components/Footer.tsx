@@ -68,7 +68,7 @@ export function Footer() {
               </a>
               <div className="flex items-start gap-2 text-gray-700 text-sm">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>Lagos, Nigeria</span>
+                <span>613 Ikorodu Rd, Mile 12, Lagos 104211, Lagos</span>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ export function Footer() {
             <h4 className="font-bold mb-4 text-primary">Follow Us</h4>
             <div className="flex gap-3">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/18Pe8JYRZv/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary/20 hover:bg-primary p-2 rounded-full transition-colors"
@@ -86,7 +86,7 @@ export function Footer() {
                 <Facebook className="w-4 h-4" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/motrunenterprises?igsh=MXNoOWNvNHA2bXdtNA=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-primary/20 hover:bg-primary p-2 rounded-full transition-colors"

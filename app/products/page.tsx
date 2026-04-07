@@ -18,21 +18,51 @@ export default function ProductsPage() {
     : products.filter(p => p.category === selectedCategory)
 
   return (
-    <main>
+    <main className='min-h-screen bg-background'>
       <Navbar />
 
-      {/* Page Header */}
-      <section className="bg-background py-12 sm:py-16 border-b border-secondary-light">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl font-bold text-dark-bg mb-4 text-balance">
-            Our Products
-          </h1>
-          <p className="text-lg text-neutral-400 max-w-2xl text-balance">
-            Browse our complete range of premium frozen fish and seafood. All products are carefully sourced and preserved to maintain freshness.
-          </p>
-        </div>
-      </section>
+<section className="relative h-120 md:h-96 overflow-hidden">
+  {/* Background */}
+  <div className="absolute inset-0">
+    <div className="w-full h-full relative">
+      {/* Image */}
+      <Image
+        src="/motrun-products.jpg"
+        alt="product background pg"
+        fill
+        className="object-cover"
+        style={{
+          clipPath: "polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%)",
+        }}
+      />
+      {/* Gradient Overlay (clipped too) */}
+      <div
+        className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/80 to-black/100"
+        style={{
+          clipPath: "polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%)",
+        }}
+      />
+    </div>
+  </div>
 
+  {/* Content */}
+  <div className="relative z-10 container mx-auto px-4 h-full flex items-center justify-center">
+    <div className="text-center text-white">
+      
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-balance leading-tight text-orange-300">
+             Our Products
+          </h1>
+     <p className="text-lg sm:text-xl text-gray-100 text-balance">
+           Browse our complete range of premium frozen fish and seafood. All products are carefully sourced and preserved to maintain freshness.
+          </p>
+      
+      
+    </div>
+  </div>
+</section>
+
+
+      
       {/* Main Content */}
       <section className="py-12 sm:py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -145,10 +175,10 @@ export default function ProductsPage() {
       {/* CTA Section */}
       <section className="py-16 sm:py-20 bg-dark-bg text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-balance">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-balance text-primary">
             Can&apos;t Find What You&apos;re Looking For?
           </h2>
-          <p className="text-lg text-gray-300 mb-8 text-balance">
+          <p className="text-lg text-gray-500 mb-8 text-balance">
             Contact us to inquire about custom bulk orders or special products.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -163,10 +193,11 @@ export default function ProductsPage() {
               asChild
               variant="outline"
               size="lg"
-              className="border-white text-white hover:bg-white hover:text-dark-bg"
+              className="border-white text-white hover:bg-green-5
+               00 hover:text-dark-bg bg-green-700"
             >
               <a
-                href="https://wa.me/2347000000000"
+                href="https://wa.me/2347057589549"
                 target="_blank"
                 rel="noopener noreferrer"
               >
