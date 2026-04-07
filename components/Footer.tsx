@@ -73,6 +73,7 @@ export function Footer() {
             </div>
           </div>
 
+          
           {/* Social Media */}
           <div>
             <h4 className="font-bold mb-4 text-primary">Follow Us</h4>
@@ -81,7 +82,7 @@ export function Footer() {
                 href="https://www.facebook.com/share/18Pe8JYRZv/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary/20 hover:bg-primary p-2 rounded-full transition-colors"
+                className="bg-primary/40 hover:bg-primary p-2 rounded-full transition-colors"
               >
                 <Facebook className="w-4 h-4" />
               </a>
@@ -89,7 +90,7 @@ export function Footer() {
                 href="https://www.instagram.com/motrunenterprises?igsh=MXNoOWNvNHA2bXdtNA=="
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary/20 hover:bg-primary p-2 rounded-full transition-colors"
+                className="bg-primary/40 hover:bg-primary p-2 rounded-full transition-colors"
               >
                 <Instagram className="w-4 h-4" />
               </a>
@@ -97,7 +98,7 @@ export function Footer() {
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary/20 hover:bg-primary p-2 rounded-full transition-colors"
+                className="bg-primary/40 hover:bg-primary p-2 rounded-full transition-colors"
               >
                 <Twitter className="w-4 h-4" />
               </a>
